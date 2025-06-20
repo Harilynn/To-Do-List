@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device‑width, initial‑scale=1.0" />
+  <title>TaskSprint To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background">
+        <div class="card">
+  <header>
+    <h1>TaskSprint</h1>
+    <p class="subtitle">Stay organized and productive</p>
+  </header>
+
+  <section class="progress-section">
+    <div class="progress-container">
+      <span class="label">Progress</span>
+      <div class="bar-bg"><div class="bar-fill"></div></div>
+      <span class="count">0/0 tasks completed</span>
+    </div>
+  </section>
+
+  <section class="input-section">
+    <div class="input-container">
+      <input id="newTaskText" placeholder="What needs to be done?" />
+      <select id="newTaskPriority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button id="addTaskBtn">＋</button>
+    </div>
+  </section>
+
+  <section class="filter-section">
+    <button data-filter="all" class="filter active"><img id="funnel-icon" src="funnel (1).svg" alt="Funnel Icon" style="width: 13px; height: 13px;"> All</button>
+    <button data-filter="active" class="filter"><img id="funnel" src="funnel (1).svg" alt="Funnel Icon" style="width: 13px; height: 13px;"> Active</button>
+    <button data-filter="completed" class="filter"><img id="funnel2-icon" src="funnel (1).svg" alt="Funnel Icon" style="width: 13px; height: 13px;"> Completed</button>
+  </section>
+
+  <section class="list-section">
+    <ul id="taskList"></ul>
+    <p id="emptyMessage" class="empty-message"></p>
+  </section>
+
+  <script src="script.js"></script>
+    </div>
+  </div>
+</body>
+</html>
