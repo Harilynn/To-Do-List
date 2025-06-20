@@ -22,16 +22,6 @@ Welcome to **TaskSprint**, a stylish and intuitive web-based to-do list that hel
 - **CSS3** – Stylish layout, animations, and hover effects
 - **JavaScript** – Functional logic and dynamic rendering
 
-## 📁 Folder Structure
-
-```
-To-Do-List/
-├── index.html      # Main page structure
-├── style.css       # Styles and animations
-├── script.js       # Task handling logic
-├── funnel (1).svg  # Icon used in filter buttons
-```
-
 ## 💡 How It Works
 
 1. **Add a Task**  
@@ -58,7 +48,7 @@ To deploy your own version:
 1. Clone or fork this repo  
 2. Push to your GitHub  
 3. Go to **Settings → Pages → Source → main branch**  
-4. Visit: `https://yourusername.github.io/To-Do-List/`
+4. Visit: `https://harilynn.github.io/To-Do-List/`
 
 ## 🧠 Inspiration
 
@@ -66,10 +56,7 @@ TaskSprint is designed to make productivity feel rewarding — with a clean layo
 
 ## 🙋‍♀️ Author
 
-Built with 💜 by [Harilynn](https://github.com/Harilynn)
+Built with ❤️ by [Harilynn](https://github.com/Harilynn)
 
-## 📄 License
-
-This project is open-source under the [MIT License](LICENSE)
 
 
